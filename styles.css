@@ -1,0 +1,25 @@
+body{font-family: 'Pangolin', cursive;}
+
+
+img{
+	width: 100%;
+}
+
+
+.flex-container{
+	display: flex;
+}
+.nav-links {
+	background-color: #00ff00;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	padding: .5rem;
+
+	list-style-type: none;
+}
+
+.nav-link a{
+	color:   #ffffff;
+	font-size: 2rem;
+	text-decoration: none;
+}
